@@ -1,0 +1,95 @@
+html,body{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(34, 34, 34) !important;
+}
+.hero-image{
+    background-image:linear-gradient(rgb(0,0,0.6),rgb(0,0,0,0.4)), url(resim/arkaplan.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: white;
+}
+.hero-text h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.hero-text h4{
+    font-size: calc(1.275ram + .3vw);
+}
+.arkaplan{
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.row{
+width: 85%;
+margin: auto;
+}
+
+h3{
+    font-size: calc(1.375rem + 1.5vw) !important;
+}
+.arkaplan p{
+    font-size: calc(1.175rem + .6vw) !important;
+    font-weight: bold;
+}
+.accordion-item{
+    background-color: rgb(34, 34, 34) !important;
+    color: white !important;
+    margin-top: 8px;
+    border: none;
+}
+.accordion-button{
+    background-color: rgb(34, 34, 34) !important;
+    color: white !important;
+}
+.row .txt{
+    text-align: start ;
+    color: white !important ;
+    font-size: 14px !important;
+    font-weight:100 !important ;
+    
+}
+.footer{
+text-align: start;
+color: #808080;
+}
+
+.footer .col-12 p{
+font-size: 16px !important;
+}
+.footer .col-lg-3 ul li{
+    list-style: none;
+}
+.footer .col-lg-3 ul li a{
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+    font-size: 20px;
+}
+.col-lg-3{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+.col-lg-3 ul{
+    padding: 0;
+}
